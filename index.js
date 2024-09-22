@@ -22,7 +22,7 @@ app.post('/bfhl', (req, res) => {
 });
 
 // GET endpoint
-app.get('/bfhl', (req, res) => {
+app.get('/bfhl', (_req, res) => {
   res.json({ operation_code: 1 });
 });
 
